@@ -1,0 +1,63 @@
+/* width="400" height="580" */
+body{
+    display: flex;
+    justify-content: center;
+     background-color: /*rgba(128, 175, 205, 255) */ #80afcb; 
+}
+.mount{
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+}
+.card{
+    bottom: 0%;
+    box-shadow: 10px 10px 20px 15px rgba(1, 2, 2, .3) ;
+    position: relative;
+    top: 3rem;
+width: 23rem;
+height: 75vh;
+padding: 0;
+
+
+}
+.comment{
+    
+    color: #fff;
+    position: absolute;
+   top: 70%;
+   margin-left: 2rem;
+   letter-spacing: .1rem;
+     display: flex;
+   justify-content: space-between;    
+}
+
+.info{
+    position: relative;
+    top: -.61%;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    background-color: #e5f1fd;
+}
+.passport{
+    right: 20%;
+   object-fit: cover;
+    margin-bottom: .5rem; 
+    border-radius: 1000px; 
+}
+.you{
+    color: #2f3f4b;
+   margin: 0;
+    position: relative;
+  right: 15%;
+  line-height: .2rem;  
+}
+
+.you >p {
+    color: #abbbc6;
+    font-weight: 800;
+}
